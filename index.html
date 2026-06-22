@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat Brevo</title>
+</head>
+<body style="margin:0;min-height:100vh;">
+  <div style="padding:16px;font-family:Arial,sans-serif;">
+    Le widget de chat Brevo doit se charger ici.
+  </div>
+
+  <script>
+    (function(d, w, c) {
+        w.BrevoConversationsID = '6942d36d1a212c34d80c5ae8';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+  </script>
+</body>
+</html>
