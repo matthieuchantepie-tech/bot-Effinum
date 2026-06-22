@@ -4,10 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chat Brevo</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body {
+      background: #F8B332;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .container { text-align: center; padding: 24px; }
+    .logo { max-width: 360px; width: 35vw; height: auto; display:block; margin: 0 auto 20px; }
+    .message { color: #ffffff; font-size: 1.25rem; font-weight: 700; }
+  </style>
 </head>
-<body style="margin:0;min-height:100vh;">
-  <div style="padding:16px;font-family:Arial,sans-serif;">
-    Un assistant vous répondra dans quelques minutes
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Logo" class="logo" />
+    <div class="message">Un assistant vous répondra dans quelques minutes</div>
   </div>
 
   <script>
